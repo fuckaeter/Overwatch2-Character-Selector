@@ -37,7 +37,7 @@ layout = [[Txt(''  * 10)],
           ]
   
 # Set PySimpleGUI
-form = FlexForm('overwatch selector by yanis', default_button_element_size = (5, 2),
+form = FlexForm('overwatch selector by cybershinig4mi', default_button_element_size = (5, 2),
                 auto_size_buttons = False, grab_anywhere = False)
 form.Layout(layout)
   
