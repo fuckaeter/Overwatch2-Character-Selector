@@ -26,7 +26,7 @@ print("-BY Cybershinig4mi")
 input("\u001b[35;1mpress y to start the character selector: ")
 
   
-# GUI Layout
+
 layout = [[Txt(''  * 10)],
           [Text('', size = (15, 1), font = ('Helvetica', 18),
                 text_color = 'black', key = 'input')],
@@ -36,22 +36,22 @@ layout = [[Txt(''  * 10)],
           [ReadFormButton('QUIT')]
           ]
   
-# Set PySimpleGUI
+
 form = FlexForm('overwatch selector by cybershinig4mi', default_button_element_size = (5, 2),
                 auto_size_buttons = False, grab_anywhere = False)
 form.Layout(layout)
   
-# Result Value
+
 Result = ''
   
-# Make Infinite Loop
+
 while on == True:
 
    
-    # Button Values
+   
     button, value = form.Read()
       
-    # Check Press Button Values
+    
     if button == 'diva':
        char = diva
        on = False
@@ -72,9 +72,9 @@ while on == True:
 
 
 
-while True:  # making a loop
-    try:  # used try so that if user pressed other than the given key error will not be shown
-        if keyboard.is_pressed('q'):  # if key 'q' is pressed 
+while True:  
+    try:  
+        if keyboard.is_pressed('q'):  
             time.sleep(1)
             pyautogui.moveTo(char[0],char[1])
             pyautogui.mouseDown()
