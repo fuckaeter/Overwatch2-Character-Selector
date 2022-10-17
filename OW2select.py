@@ -21,7 +21,7 @@ print("""\u001b[32m
                                                                                                                                                
  """, end = "")
 
-print("-BY YANIS")
+print("-BY Cybershinig4mi")
 
 input("\u001b[35;1mpress y to start the character selector: ")
 
