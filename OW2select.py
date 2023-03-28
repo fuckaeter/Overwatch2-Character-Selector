@@ -32,7 +32,7 @@ layout = [[Txt(''  * 10)],
                 text_color = 'black', key = 'input')],
           [Txt(''  * 10)],
           [ReadFormButton('diva'), ReadFormButton('widowmaker')],
-          [ReadFormButton('reaper'), ReadFormButton('groundhog')],
+          [ReadFormButton('reaper'), ReadFormButton('roadhog')],
           [ReadFormButton('QUIT')]
           ]
   
@@ -61,7 +61,7 @@ while on == True:
     if button == 'reaper':
        char = reaper
        on = False
-    if button == 'groundhog':
+    if button == 'roadhog':
        char = groundhog
        on = False
 
